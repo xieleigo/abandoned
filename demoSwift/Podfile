@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.1'
+
+target 'demoSwift' do
+  use_frameworks!
+  # 忽略引入库的所有警告
+  inhibit_all_warnings!
+
+  pod 'ESTabBarController-swift', '~> 2.7'
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'SVProgressHUD', '~> 2.2.5'
+  pod 'Moya', '~> 14.0.0-alpha.1'
+  pod 'HandyJSON', '~> 5.0.0'
+  pod 'SwiftyJSON', '~> 5.0.0'
+  pod 'FSPagerView', '~> 0.8.2'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'Kingfisher', '~> 5.7.0'
+  pod 'MJRefresh', '~> 3.2.0'
+
+end
